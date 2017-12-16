@@ -4,3 +4,16 @@ spring:
       uri: http://localhost:8888
   application:
     name: direct-flight-connection-service
+  data:
+    mongodb:
+      host: ds159676.mlab.com
+      username: test
+      password: test
+      database: direct_flight
+      port: 59676
+security:
+  basic:
+    enabled: false
+management:
+  security:
+    enabled: false
